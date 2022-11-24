@@ -1,10 +1,10 @@
 def newDownload(repo)
 {
-  "git 'https://github.com/99518111/${repo}"
+  "  https://github.com/intelliqittrainings/${repo}"
 }
 
 
 def newBuild()
 {
-  sh 'mvn package'/${"repo"}
+  sh 'mvn package'()
 }
