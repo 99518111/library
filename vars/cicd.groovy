@@ -6,5 +6,5 @@ def newDownload(repo)
 
 def newBuild()
 {
- sh 'mvn package'
+  sh 'mvn package'/${"repo"}
 }
