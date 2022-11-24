@@ -1,6 +1,6 @@
 def sum(a,b)
 {
-  echo "the sum of ${a} and is {b} ${a+b}"
+  echo "the sum of ${a} and is ${b} ${a+b}"
 }
 
 def sub(a.b)
