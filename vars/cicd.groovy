@@ -1,6 +1,6 @@
 def newDownload(repo)
 {
-  https://github.com/99518111/${repo}"
+  git "https://github.com/intelliqittrainings/${repo}"
 }
 
 
